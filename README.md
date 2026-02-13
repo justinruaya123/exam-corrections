@@ -1,22 +1,6 @@
-# sv
+# About
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --no-install .
-```
+This project was made with SvelteKit.
 
 ## Developing
 
@@ -29,14 +13,14 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Running
 
-To create a production version of your app:
+
+Run the following commands:
 
 ```sh
 npm run build
+npm run preview -- --host
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Users should access the following URL: `192.168.XX.XX:4173/admin` (for admin view) and `192.168.XX.XX:4173` (for exam view).
