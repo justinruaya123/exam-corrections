@@ -8,6 +8,8 @@ node_modules
 /.svelte-kit
 /build
 package-lock.json
+.mp3
+.ogg
 
 
 # OS
